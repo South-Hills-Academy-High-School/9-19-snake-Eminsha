@@ -201,7 +201,7 @@ snakehead = sprites.create(img`
     . . . . . . 7 7 7 7 2 2 7 7 7 7 
     . . . . . . 7 7 7 2 7 7 2 7 7 7 
     `, SpriteKind.Player)
-snakehead.setFlag(SpriteFlag.AutoDestroy, true)
+snakehead.setFlag(SpriteFlag.AutoDestroy, false)
 snakefood = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
